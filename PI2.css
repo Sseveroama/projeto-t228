@@ -1,0 +1,92 @@
+
+* {
+  /* Estilo para o corpo da página */
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(imagem\ fundo.png); /*adiciona uma imagem no fundo da tela*/
+    background-repeat: no-repeat; /*para não haver repetição da imagem*/
+    background-attachment: fixed; /*fixa a imagem para que não passe junto com o site*/
+    background-size: cover; /*para a imagem não cobrir o conteúdo do site*/
+    font-family: Arial; /*estio de fonte*/
+    background-color: hsl(0, 0%, 100%);
+    font-size: 1em; /*tamanho do titulo*/
+    color: #000000;
+    margin-left: 80px;/*margem esquerda*/
+    margin-top: 50px; /*espaço das linhas*/
+    margin-right: 110px; /*margem direita*/
+    justify-content: center; /*alinhamento do conteudo*/
+    text-align: justify; /*alinhamento do texto justificado*/
+}
+
+  img {
+    /* Aplica a todos as imagens */
+    width: 350px; /* Define a largura */
+    min-height: auto; /* Mantém a proporção */
+    border-radius: 0px; /* Borda arredondada */
+}
+
+img.png {
+    /* Aplica somente a imagens PNG */
+    border: 1px solid #000; /* Borda*/
+    display: block; /*tipo de exibição na tela*/
+    margin-top: 10px; /*margem suerior da imagem*/
+    margin-right: 30px; /*margem direita*/
+}
+
+img.jpg {
+    /* Aplica somente a imagens JPG */
+    border: 1px solid #000000;
+    display: block; /*tipo de exibição na tela*/
+      margin-top: 10px;  /*margem suerior da imagem*/
+      margin-right: 30px; /*margem direita*/
+      margin-bottom: 40px; /*margem inferior*/
+      margin-left: 50px;/*margem esquerda*/
+  }
+
+   h1, h2 {
+    /* Estilo para cabeçalhos */
+    color: #000000;
+    line-height: 3; /*distancia do cabeçalho das demais linhas*/
+    margin-right: 3px; /*margem direita*/
+    font-size: 20px; /*tamanho da fonte*/
+    font-family: georgia; /*tipo de fonte*/
+  }
+ 
+  p {
+     /* Estilo para parágrafos */
+    font-size: 16px; /*tamanho da fonte*/
+    line-height: 2; /*espaço entre as linhas*/
+    color: #000000;
+  }
+
+  ul {
+     /* Estilo para parágrafos tipo ul*/
+    font-size: 16px;
+    line-height: 2;
+    color: #000000;
+  }
+
+  ol {
+    /* Estilo para parágrafos tipo ul*/
+    font-size: 16px;
+    line-height: 2;
+    color: #000000;
+  }
+  
+  button {
+    /*estilo de botão*/
+    background-color: #0b0c30; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado do texto */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 80px; /*espaço das linhas*/
+    cursor: pointer; /* Muda o cursor quando você passa o mouse sobre o botão */
+    border-radius: 20px; /* Borda arredondada */
+}
